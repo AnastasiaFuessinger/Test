@@ -41,7 +41,6 @@ describe('hugendubel.de page', async () => {
 		//await browser.pause(5000)
 	})
 	
-	https://www.hugendubel.de/de/shoppingcart
 	xit('should shopping cart open', async () => {
 		const shoppingCart = await $('#header-cart')
 		await shoppingCart.click()
